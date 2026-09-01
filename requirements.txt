@@ -1,0 +1,28 @@
+# MedFairXNet Research Project
+# Core scientific and data-processing packages used in Research_Project.ipynb
+
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+opencv-python
+Pillow
+tqdm
+
+# Deep learning
+torch==2.10.0
+torchvision==0.25.0
+
+# Explainable AI
+lime
+shap
+
+# Notes:
+# - The notebook was executed in a Kaggle environment with CUDA 12.8
+#   and NVIDIA Tesla T4 availability.
+# - GPU/CUDA support is environment-dependent. For local GPU use,
+#   install the PyTorch build appropriate for your CUDA version from:
+#   https://pytorch.org/get-started/locally/
